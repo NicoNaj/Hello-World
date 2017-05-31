@@ -21,11 +21,12 @@ public class Curve {
 			SqlQuery queryEMEA = new SqlQuery();
 			this.dates = queryEMEA.fetchCurvesDates(_curveKey.valuationDate, "TO DO how to get RICcode");
 			this.rates = queryEMEA.fetchCurvesRates(_curveKey.valuationDate, "TO DO how to get RICcode");
+			break;
 		case excelImport :
-			
+			break;
 		
 		case reBuilt :
-			
+			break;
 		
 		}
 	}
